@@ -24,9 +24,9 @@ intents.members = True
 intents.presences = True
 intents.message_content = True
 BOT_PREFIX = "!"
-ACTIVE_EXTENSIONS = ['Extensions.Misc', 'Extensions.ActivityStats', 'Extensions.Currency',
-                     'Extensions.Gambling', 'Extensions.HorseRace', 'Extensions.MinerGame', 
-                     'Extensions.CardCollector']
+ACTIVE_EXTENSIONS = ['Extensions.Misc', 'Extensions.ActivityStats'] # 'Extensions.Currency',
+                     #'Extensions.Gambling', 'Extensions.HorseRace', 'Extensions.MinerGame', 
+                     # 'Extensions.CardCollector']
 DATA_PATH = "/app/data/"
 
 

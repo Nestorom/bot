@@ -25,7 +25,8 @@ class Misc(commands.Cog):
         """!winners"""
         past_winners = ["Season 1 - Mangles", "Season 2 - Mangles", "Season 3 - Dave, Mangles/Zagadka Runners up",
                         "Season 4 - Vesp, Mangles/Nestor Runners up", "Season 5 - Walsh, Zagadka/Mangles Runners up",
-                        "Season 6 - Zagadka, Disco/Phreebie Runners up", "Season 7 - Vesp, Romulus/DutchRudder Runners up"]
+                        "Season 6 - Zagadka, Disco/Phreebie Runners up", "Season 7 - Vesp, Romulus/DutchRudder Runners up", 
+                        "Season 8 - Mattlife, Mangles Runner up"]
         msg = "Shekel Season Past Winners\n```"
         for winner in past_winners:
             msg += winner
